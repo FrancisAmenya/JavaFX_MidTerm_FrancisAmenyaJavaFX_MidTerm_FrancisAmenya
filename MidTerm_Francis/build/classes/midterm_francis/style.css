@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2019, 3:10:02 PM
+    Author     : graffitiAddikt
+*/
+
+
+.root {
+     -fx-background-image: url("background_gradient.jpg");
+}
+
+.label {
+    -fx-alignment: CENTER;
+    -fx-font-size: 11px;
+    -fx-font: "Calibri";
+    /*-fx-font-weight: bold;*/
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(240,240,240,2) , 0,0,0,1 );
+}
+
+.label2 {
+    -fx-font-weight: bold;
+    
+}
+
+.imageview {
+     -fx-alignment: CENTER;
+}
+
